@@ -94,7 +94,7 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 
 🔧 Web App (Next.js + Vercel)
 
-git clone https://github.com/BipinChowdary/Travel-Green
+git clone (https://github.com/harshi2520/Travel-Green)
 
 cd Travel-Green
 
