@@ -71,6 +71,27 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 | **Bank**  | bank@carbonbank.com          | BankPass123 |
 | **System Admin**       | admin@carboncredit.com    | 	AdminPass123 |
 
+✅ Simulate end-to-end workflows: registration → approval → trip logging → trading → transaction audit.
+
+---
+## 🧠 Notable Features
+- Smart Trip Validation
+  Prevents fraud using trip duration logic, distance caps, and GPS tracking.
+
+Configurable Credit Rules
+
+Walking: 0.5 credits / 10 km
+
+Cycling: 1 credit / 10 km
+
+Public Transport: 0.8 credits / 10 km
+
+Compliance-Controlled Trading
+All trades require Bank approval, logged with timestamps for ESG reporting.
+
+Advanced UI/UX
+Fully responsive dashboards, dark/light modes, tooltips, accessibility labels, onboarding guides.
+
 
 ✅ Highlights:
 
