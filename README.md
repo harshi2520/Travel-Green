@@ -64,11 +64,13 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 ---
 ## 🔐 Demo Credentials
 
-Role	                Email                   	Password
-Employee      	  emp1@harshi.com                	123456
-Employer	        admin@harshi.com	              123456
-Bank	            bank@carbonbank.com	            BankPass123
-System Admin	    admin@carboncredit.com	        AdminPass123
+| Role               | Email              | Password
+|-------------------------|------------------|---------------------|
+| **Employee**      | emp1@harshi.com      | 123456      |
+| **Employer** | 	admin@harshi.com         | 123456      |
+| **Bank**  | bank@carbonbank.com          | BankPass123 |
+| **System Admin**       | admin@carboncredit.com    | 	AdminPass123 |
+
 
 ✅ Highlights:
 
