@@ -78,19 +78,38 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 - Smart Trip Validation
   Prevents fraud using trip duration logic, distance caps, and GPS tracking.
 
-Configurable Credit Rules
+- Configurable Credit Rules
+  Walking: 0.5 credits / 10 km
+  Cycling: 1 credit / 10 km
+  Public Transport: 0.8 credits / 10 km
 
-Walking: 0.5 credits / 10 km
+- Compliance-Controlled Trading
+  All trades require Bank approval, logged with timestamps for ESG reporting.
 
-Cycling: 1 credit / 10 km
+- Advanced UI/UX
+  Fully responsive dashboards, dark/light modes, tooltips, accessibility labels, onboarding guides.
+---
 
-Public Transport: 0.8 credits / 10 km
+🛠️ Setup Instructions
 
-Compliance-Controlled Trading
-All trades require Bank approval, logged with timestamps for ESG reporting.
+🔧 Web App (Next.js + Vercel)
+git clone https://github.com/BipinChowdary/Travel-Green
+cd Travel-Green
+npm install
+npm run dev
 
-Advanced UI/UX
-Fully responsive dashboards, dark/light modes, tooltips, accessibility labels, onboarding guides.
+Update .env.local with your Firebase credentials:
+NEXT_PUBLIC_FIREBASE_API_KEY=...
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=...
+...
+---
+
+📲 Mobile App (Flutter + Firebase)
+git clone https://github.com/BipinChowdary/Travel-Green-Mobile
+cd Travel-Green-Mobile
+flutter pub get
+flutter run
+Configure firebase_options.dart and Google Maps API key.
 
 
 ✅ Highlights:
