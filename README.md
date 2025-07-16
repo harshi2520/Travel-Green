@@ -93,93 +93,35 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 🛠️ Setup Instructions
 
 🔧 Web App (Next.js + Vercel)
+
 git clone https://github.com/BipinChowdary/Travel-Green
+
 cd Travel-Green
+
 npm install
+
 npm run dev
+
+---
 
 Update .env.local with your Firebase credentials:
 NEXT_PUBLIC_FIREBASE_API_KEY=...
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=...
 ...
+
 ---
 
 📲 Mobile App (Flutter + Firebase)
+
 git clone https://github.com/BipinChowdary/Travel-Green-Mobile
+
 cd Travel-Green-Mobile
+
 flutter pub get
+
 flutter run
+
 Configure firebase_options.dart and Google Maps API key.
-
-
-✅ Highlights:
-
-- Daily trends in patient counts, wait times, and satisfaction.
-- Admission and referral metrics.
-- Demographics filtered for the selected month.
-- Hourly heatmap for operational insights.
-
-![Monthly View](https://github.com/harshi2520/Hospital-Management-Dashboard/blob/main/Monthly%20View.png)
-
----
-
-### 📄 2. Holistic View
-
-An overall, high-level summary of emergency department performance across all available data.
-
-✅ Highlights:
-
-- Monthly trends in patient volume, wait time, and satisfaction.
-- Total counts of admitted and referred patients.
-- Age group, gender, and race demographics.
-- A heatmap of arrivals by day and hour.
-
-![Consolidated View](https://github.com/harshi2520/Hospital-Management-Dashboard/blob/main/Holistic%20View.png)
-
----
-
-### 📄 3. Patient Details
-
-A tabular view of patient-level data:
-- Shows detailed records with fields like Patient Name, Age, Gender, Admission Date, Race, Referral Department, and Admission Status
-- Filterable by date and other attributes for deeper analysis
-- Useful for audits and internal reviews.
-
-![Patient Details](https://github.com/harshi2520/Hospital-Management-Dashboard/blob/main/Patient%20Details.png)
-
----
-
-### 🧠 4. Summary
-
-A narrative-based summary generated from insights:
-- Highlights top trends in wait times, referrals, admission behavior, and demographics
-- Written in natural language, useful for stakeholders who prefer summaries over visuals
-- Supports strategic planning and performance reviews
-
-![Summary](https://github.com/harshi2520/Hospital-Management-Dashboard/blob/main/Summary.png)
-
----
-
-## 📘 Key DAX Insight: % of Patients Seen Within 30 Minutes
-
-As part of building this dashboard, I created a DAX measure to track how effectively the ER meets its triage benchmark.
-
-### 📌 DAX Formula
-
-
-### 🖼️ Screenshot: % of Patients Seen Within 30 Minutes
-
-![C](https://github.com/bhumikabharadwaj2205/Hospital-Management-Dashboard/blob/main/Formula.png))
-
-
-### 🧮 What the Formula Does
-
-- Numerator: Counts patients whose wait time was 30 minutes or less.
-- Denominator: Counts all patients.
-- DIVIDE: Returns the percentage safely, avoiding divide-by-zero errors.
-
-📊 **For example**:  
-If 4,500 out of 7,500 patients were seen within 30 minutes, the KPI would show 60%.
 
 
 
