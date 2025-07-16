@@ -33,26 +33,25 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 💬 Push notifications: Registration approvals, trade updates, and milestone alerts
 
 ---
-## 📊 Key KPIs (Important Numbers We Track)
+## 🧑‍💼 Use Cases
 
-These KPIs help monitor operational performance and identify improvement areas.
-
-| KPI Name                | What It Tells Us |
+| Role                | Capabilities |
 |-------------------------|------------------|
-| **Number of Patients**      | Total volume of ER patients in the selected period. |
-| **Average Wait Timee** | Average time patients waited before being seen. |
-| **Patient Satisfaction Score**  | How satisfied patients were with their ER experience. |
-| **Number of Patients Referred**       | How many patients were referred to other departments or specialists. |
-| **% of Patients Seen Within 30 Minutes**   | How quickly patients were triaged and treated compared to the target benchmark. |
-| **Admission Status** | The split between admitted vs. non-admitted cases. |
-
-🧠 **Why These Matter Together**:
-- They help pinpoint operational bottlenecks (long wait times, poor satisfaction).
-- Identify peak hours and days to improve staffing.
-- Show progress towards compliance targets (e.g., seeing patients within 30 minutes).
-- Support decisions about resource allocation and workflow changes.
+| **Employee**      | Logs trips, views credits, competes on leaderboards. |
+| **Employer** | Approves employees, posts/accepts trades, monitors org credits. |
+| **Bank**  | Approves employers and trades, oversees compliance. |
+| **System Admin**       | Full access for troubleshooting, audits, and configuration. |
 
 ---
+## 🧱 Tech Stack
+| Layer               | Technology |
+|-------------------------|------------------|
+| **Frontend (Web)**      | Next.js, Tailwind CSS, React, Recharts |
+| **Frontend (Mobile)** | 	Flutter, Dart, Google Maps SDK, Share+ |
+| **Backend**  | Firebase Firestore, Firebase Authentication, Firebase Cloud Functions |
+| **Deployment**       | Vercel, Firebase Hosting, CI/CD via GitHub |
+| **Design & Dev Tools**       | Figma, VS Code, ESLint, Prettier, Jest, Flutter Test |
+
 
 ## 🖼️ Dashboard Snapshots
 
