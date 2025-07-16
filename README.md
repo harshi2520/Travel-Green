@@ -17,12 +17,19 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 ## 🎯 Key Features
 
 🔐 Multi-role platform: Employee, Employer, Bank, and Admin dashboards
+
 📍 GPS-based trip tracking: Walking, cycling, and public transport via mobile
+
 🌱 Carbon credit accumulation: Configurable formulas based on distance
+
 💹 Marketplace for credit trading: Employer-to-employer trades regulated by a Bank entity
+
 🔄 Real-time updates: Firestore-backed trip logs and leaderboards
+
 📊 Analytics dashboards: CO₂ saved, credits earned, transport breakdown
+
 🧠 Gamification & Social sharing: Leaderboards, badges, and shareable achievements
+
 💬 Push notifications: Registration approvals, trade updates, and milestone alerts
 
 ---
