@@ -9,7 +9,9 @@
 Travel Green is a full-stack sustainability platform that encourages eco-friendly commuting by tracking low-carbon travel and converting it into carbon credits. These credits can be traded in a bank-regulated marketplace, offering financial incentives for individuals and organizations to reduce emissions. This project integrates real-time GPS tracking, role-based access, and secure credit trading, all built on a scalable serverless architecture.
 
 ✅ Web (Next.js + Vercel)
+
 ✅ Mobile (Flutter + Google Maps SDK)
+
 ✅ Backend (Firebase Auth + Firestore + Functions)
 
 
@@ -53,7 +55,10 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 | **Design & Dev Tools**       | Figma, VS Code, ESLint, Prettier, Jest, Flutter Test |
 
 
-## 🖼️ Dashboard Snapshots
+## 📱 Live Demo
+
+🌐 Web App: https://carbon-credit-project.vercel.app
+📲 Mobile App Repo: Travel Green Mobile
 
 ### 📄 1. Monthly View
 
