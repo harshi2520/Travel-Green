@@ -61,9 +61,14 @@ Travel Green is a full-stack sustainability platform that encourages eco-friendl
 
 📲 Mobile App Repo: Travel Green Mobile
 
-### 📄 1. Monthly View
+---
+## 🔐 Demo Credentials
 
-A focused view for analyzing any specific month.
+Role	                Email                   	Password
+Employee      	  emp1@harshi.com                	123456
+Employer	        admin@harshi.com	              123456
+Bank	            bank@carbonbank.com	            BankPass123
+System Admin	    admin@carboncredit.com	        AdminPass123
 
 ✅ Highlights:
 
